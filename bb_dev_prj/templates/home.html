@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>메인 페이지</title>
+</head>
+<body>
+    <h1>환영합니다!</h1>
+    <p>팝콘과 콜라 주문을 즐기세요.</p>
+    <a href="{% url 'orders:order_create' %}">주문하기</a>
+    <a href="{% url 'orders:order_list' %}">주문 목록</a>
+</body>
+</html>
