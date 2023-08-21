@@ -1,5 +1,6 @@
 from django.urls import path
 from .views import order_create, order_list
+
 app_name = 'orders'
 
 urlpatterns = [
